@@ -1,5 +1,11 @@
-number = int(input())
-if 0 < number < 10:
-    print(number ** 2)
-else:
-    print('не верно')
+while True:
+    n = int(input('введите число от 0 до 10: '))
+    if 0 < n < 10:
+        print('Верно, молодец! :)))')
+        print(n ** 2)
+        break
+    elif n  < 0:
+        print('Нужно чуть больше :)) ')
+    elif 10 < n:
+        print('Нужно чуть меньше :)) ')
+        
